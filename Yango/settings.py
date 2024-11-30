@@ -37,6 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+<<<<<<< HEAD
+=======
+    'Yango',
+    'templates',
+>>>>>>> 120393f1aff94a79724b546df50e28380f2a902d
 ]
 
 MIDDLEWARE = [
