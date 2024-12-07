@@ -104,15 +104,16 @@ li{
     border-color: #FF0000;
     border-radius: 25px;
 }
+.driver-main-container{
+    background-color: #F8F8F8;
+}
 .img-cont{
-
     height: 80vh !important;
-    width: 117% !important;
+    width: autp;
     overflow: hidden;
-    padding: 0% !important;
+    /* padding:  */
 }
 .text-yango-pg{
     margin-top: 21vh !important;
-    padding-left: 0 !important;
 }
 
