@@ -9,7 +9,10 @@ from django.views.static import serve
 
 urlpatterns = [
     path('', views.home, name='home'),
+    path('driver', views.driver, name='driver'),
     path('admin/', admin.site.urls),
     re_path(r'^media/(?P<path>.*)$', serve, {'document_root': settings.MEDIA_ROOT}),
     re_path(r'^static/(?P<path>.*)$', serve, {'document_root': settings.STATIC_ROOT}),
 ]
+if settings.DEBUG:  # Only serve media files in debug mode
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

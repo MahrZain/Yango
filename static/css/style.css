@@ -30,7 +30,9 @@
 
 
 
-
+body{
+    overflow-x: hidden;
+}
 
 .u-nav-wrapper{
 
@@ -93,3 +95,24 @@ li{
     box-shadow: none !important;
     opacity: var(--bs-btn-close-focus-opacity);
 }
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+                                /* ZAIN CSS Start Here  */
+
+.yango-pro-button{
+    border-color: #FF0000;
+    border-radius: 25px;
+}
+.img-cont{
+
+    height: 80vh !important;
+    width: 111% !important;
+    overflow: hidden;
+    padding: 0% !important;
+}
+.text-yango-pg{
+    margin-top: 21vh !important;
+    padding-left: 0 !important;
+}
+
