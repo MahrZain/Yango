@@ -1,32 +1,95 @@
-.u-nav-wrapper{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #FF0000;    color: #fff;
-    padding: 0px 45px;
+@media (min-width: 50px) and (max-width: 575.98px) { 
+    .u-nav-list{
+        display: none;
+    }
+ }
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .u-nav-list{
+        display: none;
+    }
+ }
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .u-nav-list{
+        display: none;
+    }
 }
+@media (min-width: 992px) and (max-width: 1119.98px) { 
+    .u-nav-hamburger{
+        display: none;
+    }
+ }
+@media (min-width: 1119.98px) { 
+    .u-nav-hamburger{
+        display: none;
+    }
+ }
 
-.u-nav-wrapper .u-nav-r ul{
-    display: flex;
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
-    padding: 5px 10px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+
+
+
+
+
+
+
+
+.u-nav-wrapper{
+
     align-items: center;
+    background-color: #FF0000 !important;
+    color: #fff !important;
+    position: fixed;
+    width: 100%;
+
+}
+.u-n-head-color{
+    color: #fff;
+}
+.u-nav-r li a{
+
+    color: #fff;
 }
 .u-nav-wrapper .u-nav-r ul li{
     list-style: none;
     margin: 0 15px;
     cursor: pointer;
+    font-size: 17px;
 }
 li{
     list-style: none;
 }
 .u-nav-head{
-    font-size: 30px;
+    font-size: 30px !important;
     font-weight: bold;
     margin-left: 0 !important;
 }
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none !important;
+}
 
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    transition: .8s cubic-bezier(0.25, 0.1, 0.43, 0.58);
+    align-items: center;
+}
+.u-nav-spacer{
+    height: 80px;
+}
+.navbar-expand .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: end;
+}
+.bi-list::before {
+    content: "\f479";
+    border: 1px solid rgb(255, 255, 255, .6);
+    border-radius: 2px;
+    padding: 3px;
+}
+.btn-close:focus {
+    outline: 0;
+    box-shadow: none !important;
+    opacity: var(--bs-btn-close-focus-opacity);
+}
