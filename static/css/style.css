@@ -116,4 +116,16 @@ li{
 .text-yango-pg{
     margin-top: 21vh !important;
 }
-
+.sec-main-heading{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top:4%;
+}
+.custome-card-y1{
+    background-color: #F8F8F8;
+    padding: 2%;
+    margin: 2%;
+    border: 1px solid #F8F8F8;
+    border-radius: 10px;
+}
