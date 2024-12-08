@@ -154,3 +154,10 @@ margin-top: 9%;
 .cutom-margin-cards2{
 margin-top: 27%;
 }
+.logo-in-text{
+    color: red;
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    font-size: -webkit-xxx-large;
+}
